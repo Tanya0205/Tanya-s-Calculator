@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mycal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="container" class="calci" action="Attractivecalculator.html" method="post">
+        <input type="text" name="answer" class="display">
+        <br>
+        <br>
+        <input type="button" class="button" value="c" onclick="container.answer.value=''" id="delete">
+        <input type="button" class="button" value="%" onclick="container.answer.value+='%'">
+        <input type="button" class="button" value="<-"onclick="container.answer.value=container.answer.value.slice(0,-1)">
+        <input type="button" class="button" value="+" onclick="container.answer.value+='+'">
+        <br>
+        <br>
+        <input type="button" class="button" value="7" onclick="container.answer.value+='7'">
+        <input type="button" class="button" value="8" onclick="container.answer.value+='8'">
+        <input type="button" class="button" value="9" onclick="container.answer.value+='9'">
+        <input type="button" class="button" value="-" onclick="container.answer.value+='-'">
+        <br>
+        <br>
+        <input type="button" class="button" value="4" onclick="container.answer.value+='4'">
+        <input type="button" class="button" value="5" onclick="container.answer.value+='5'">
+        <input type="button" class="button" value="6" onclick="container.answer.value+='6'">
+        <input type="button" class="button" value="*" onclick="container.answer.value+='*'">
+        <br>
+        <br>
+        <input type="button" class="button" value="1" onclick="container.answer.value+='1'">
+        <input type="button" class="button" value="2" onclick="container.answer.value+='2'">
+        <input type="button" class="button" value="3" onclick="container.answer.value+='3'">
+        <input type="button" class="button" value="/" onclick="container.answer.value+='/'">
+        <br>
+        <br>
+        <input type="button" class="button" value="0" onclick="container.answer.value+='0'">
+        <input type="button" class="button" value="." onclick="container.answervalue+='.'">
+        <input type="button" class="equal" value="=" onclick="container.answer.value=eval(container.answer.value)">
+
+
+
+
+
+    </form>
+    <p id="main">Online calculator by me</p>
+    <p id="by">....By Tanya</p>
+    <img src="Vector 11.png">
+</body>
+
+</html>

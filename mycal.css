@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Grape Nuts', cursive;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: black;
+    }
+
+.calci {
+    width: 400px;
+    height: 370px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    transition: 0.25px;
+    background-color: black;
+    box-shadow: 0 0  30px blueviolet;
+    text-align: center;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    color: greenyellow;
+    border-radius:30px;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 0 10px rgb(239, 238, 238);
+    }
+
+.equal{
+    width: 100px;
+    height: 50px;
+    color: greenyellow;
+    border-radius:30px;
+    text-align: center;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 0 0 10px rgb(239, 238, 238);
+
+}
+
+.display{
+    width: 220px;
+    height: 40px;
+    border-radius: 10px;
+    color: yellowgreen;
+    text-align: right;
+    background: transparent;
+    box-shadow: 0 0 10px rgb(239, 238, 238);
+}
+
+#main{
+    color: yellowgreen;
+    margin-top: 15%;
+    margin-left: 100px;
+    padding-left: 30px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+#by{
+    color: blueviolet;
+    margin-left: 500px;
+}
+img{
+    margin-left: 530px ;
+    width: 80px;
+    height: 15px;
+    margin-bottom: 10px;
+}
